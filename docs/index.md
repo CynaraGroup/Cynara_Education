@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  logo: '/logo横.svg'
+  logo: './shutdown_prompt/img./shutdown_prompt/img/logo横.svg'
   name: "智顺授课，"
   text: "柔应课堂。"
   tagline: Powered by Cynara
@@ -14,7 +14,7 @@ hero:
     - theme: alt
       text: Github
       link: https://github.com/CynaraGroup
-  image: '/logo.svg'
+  image: './shutdown_prompt/img/logo.svg'
 
 features:
   - icon: '⚡'
