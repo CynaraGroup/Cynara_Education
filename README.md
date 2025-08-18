@@ -3,7 +3,7 @@
 ![](https://github.com/CynaraGroup/Cynara_Education/blob/master/docs/img/logo横.svg?raw=true)
 
 # **Cynara Education**
-# ** 智顺授课，柔应课堂。**
+智顺授课，柔应课堂。
 
 </div>
 
