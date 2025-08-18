@@ -12,7 +12,7 @@ export default defineConfig({
     },
   },
   themeConfig: {
-    logo: './shutdown_prompt/img/logo横.svg',
+    logo: './shutdown_prompt/img/logo横.png',
     siteTitle: false,
     // https://vitepress.dev/reference/default-theme-config
     nav: [
