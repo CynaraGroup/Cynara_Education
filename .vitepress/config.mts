@@ -87,7 +87,7 @@ export default defineConfig({
     ],  
 
     editLink: {
-      pattern: "https://github.com/CynaraGroup/Cynara_Education/edit/main/docs/:path", // 自己项目仓库地址
+      pattern: "https://github.com/CynaraGroup/Cynara_Education/edit/master/docs/:path", // 自己项目仓库地址
       text: "在 github 上编辑此页",
     },
 
