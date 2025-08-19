@@ -12,7 +12,7 @@ export default defineConfig({
     },
   },
   themeConfig: {
-    logo: './shutdown_prompt/img/Cynara横.png',
+    logo: 'https://cdn.jsdelivr.net/gh/CynaraGroup/PicBed/Cynara/CynaraEducation横.svg',
     siteTitle: false,
     // https://vitepress.dev/reference/default-theme-config
     nav: [
