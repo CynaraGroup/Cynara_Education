@@ -1,6 +1,6 @@
 # ⚙️ 编译
 
-::: warning ⚠️
+::: warning
 这是面对高级用户的文档，如果您是普通用户，请查看“安装”章节
 :::
 
@@ -41,7 +41,7 @@ pyinstaller -F -w -i assist/img/logo.ico --add-data "assist/font/dingtalk.ttf;."
 
 ## ⚖️ 许可证
 
-::: info ℹ️
+::: info
 
 本项目基于 LGPL-3.0 协议开源，您可以在遵守协议的前提下自由使用、修改和分发本项目的代码。
 
