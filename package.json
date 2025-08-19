@@ -7,7 +7,8 @@
   "dependencies": {
     "medium-zoom": "^1.1.0",
     "vitepress": "^1.6.4",
-    "vitepress-protect-plugin": "^1.0.6"
+    "vitepress-protect-plugin": "^1.0.6",
+    "vitepress-theme-website": "^1.0.8"
   },
   "devDependencies": {
     "@catppuccin/vitepress": "^0.1.2"
