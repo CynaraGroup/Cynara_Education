@@ -415,8 +415,8 @@
 
     /* Logo */
     --rainbow-prev-logo: #9d00ff;
-    --rainbow-next-logo: #ff0000;
-    /* animation: rainbow 8s linear infinite; */
+    --rainbow-next-logo: #00ff33;
+    animation: rainbow 8s linear infinite;
 }
 
 :root {
