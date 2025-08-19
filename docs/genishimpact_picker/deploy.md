@@ -1,6 +1,6 @@
 # ⚙️ 本地部署
 
-::: warning ⚠️
+::: warning
 这是面对高级用户的文档，如果您是普通用户，请查看“安装”章节和“在线使用”章节
 
 :::
@@ -53,7 +53,7 @@ pyinstaller --onefile --windowed --icon=img/logo.ico --name="NamePick" main.py
 
 ## ⚖️ 许可证
 
-::: info ℹ️
+::: info 
 
 本项目基于[genshin-impact](https://github.com/animation-picker/genshin-impact)开发（MIT许可证）。
 
