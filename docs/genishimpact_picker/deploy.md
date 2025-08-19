@@ -14,13 +14,14 @@
 
 #### 🔄 获取源码
 
-```bash
+```shell [git]
 git clone https://github.com/CynaraGroup/GenishImpact_Picker.git
 ```
 
 #### 📦 安装依赖
 
-```bash
+```shell [npm]
+
 # 进入目录
 cd GenishImpact_Picker/Genshin-Impact-Wish-Simulator
 
@@ -30,13 +31,13 @@ npm install
 
 #### ▶️ 源码运行
 
-```bash
+```shell [npm]
 npm run dev
 ```
 
 #### 🛠️ 编译可执行文件
 
-```bash
+```shell [pip]
 # 进入目录
 cd GenishImpact_Picker
 
@@ -44,11 +45,16 @@ cd GenishImpact_Picker
 pip install pyinstaller pyautogui --no-cache-dir
 pip install pillow
 
+```
+
+```shell [python]
+
 # 转换图标格式
 python -c "from PIL import Image; Image.open('img/logo.png').save('img/logo.ico', format='ICO', sizes=[(256, 256), (128, 128), (64, 64), (48, 48), (32, 32), (16, 16)])"
 
 # 编译
 pyinstaller --onefile --windowed --icon=img/logo.ico --name="NamePick" main.py
+
 ```
 
 ## ⚖️ 许可证

@@ -1,0 +1,432 @@
+/* 彩虹动画 */
+@keyframes rainbow {
+    0% {
+        --rainbow-prev-name: #009ff7;
+        --rainbow-next-name: #c76dd1;
+    }
+
+    1.25% {
+        --rainbow-prev-name: #009dfa;
+        --rainbow-next-name: #cf69c9;
+    }
+
+    2.5% {
+        --rainbow-prev-name: #009bfc;
+        --rainbow-next-name: #d566c2;
+    }
+
+    3.75% {
+        --rainbow-prev-name: #0098fd;
+        --rainbow-next-name: #dc63ba;
+    }
+
+    5% {
+        --rainbow-prev-name: #0096fd;
+        --rainbow-next-name: #e160b3;
+    }
+
+    6.25% {
+        --rainbow-prev-name: #0093fd;
+        --rainbow-next-name: #e65eab;
+    }
+
+    7.5% {
+        --rainbow-prev-name: #2e90fc;
+        --rainbow-next-name: #e95ca2;
+    }
+
+    8.75% {
+        --rainbow-prev-name: #4d8dfa;
+        --rainbow-next-name: #ed5a9a;
+    }
+
+    10% {
+        --rainbow-prev-name: #638af8;
+        --rainbow-next-name: #ef5992;
+    }
+
+    11.25% {
+        --rainbow-prev-name: #7587f5;
+        --rainbow-next-name: #f15989;
+    }
+
+    12.5% {
+        --rainbow-prev-name: #8583f1;
+        --rainbow-next-name: #f25981;
+    }
+
+    13.75% {
+        --rainbow-prev-name: #9280ed;
+        --rainbow-next-name: #f25a79;
+    }
+
+    15% {
+        --rainbow-prev-name: #9f7ce9;
+        --rainbow-next-name: #f25c71;
+    }
+
+    16.25% {
+        --rainbow-prev-name: #aa78e3;
+        --rainbow-next-name: #f15e69;
+    }
+
+    17.5% {
+        --rainbow-prev-name: #b574dd;
+        --rainbow-next-name: #ef6061;
+    }
+
+    18.75% {
+        --rainbow-prev-name: #be71d7;
+        --rainbow-next-name: #ed635a;
+    }
+
+    20% {
+        --rainbow-prev-name: #c76dd1;
+        --rainbow-next-name: #eb6552;
+    }
+
+    21.25% {
+        --rainbow-prev-name: #cf69c9;
+        --rainbow-next-name: #e8694b;
+    }
+
+    22.5% {
+        --rainbow-prev-name: #d566c2;
+        --rainbow-next-name: #e46c44;
+    }
+
+    23.75% {
+        --rainbow-prev-name: #dc63ba;
+        --rainbow-next-name: #e06f3d;
+    }
+
+    25% {
+        --rainbow-prev-name: #e160b3;
+        --rainbow-next-name: #db7336;
+    }
+
+    26.25% {
+        --rainbow-prev-name: #e65eab;
+        --rainbow-next-name: #d77630;
+    }
+
+    27.5% {
+        --rainbow-prev-name: #e95ca2;
+        --rainbow-next-name: #d17a2a;
+    }
+
+    28.75% {
+        --rainbow-prev-name: #ed5a9a;
+        --rainbow-next-name: #cc7d24;
+    }
+
+    30% {
+        --rainbow-prev-name: #ef5992;
+        --rainbow-next-name: #c6811e;
+    }
+
+    31.25% {
+        --rainbow-prev-name: #f15989;
+        --rainbow-next-name: #bf8418;
+    }
+
+    32.5% {
+        --rainbow-prev-name: #f25981;
+        --rainbow-next-name: #b98713;
+    }
+
+    33.75% {
+        --rainbow-prev-name: #f25a79;
+        --rainbow-next-name: #b28a0f;
+    }
+
+    35% {
+        --rainbow-prev-name: #f25c71;
+        --rainbow-next-name: #ab8d0c;
+    }
+
+    36.25% {
+        --rainbow-prev-name: #f15e69;
+        --rainbow-next-name: #a3900b;
+    }
+
+    37.5% {
+        --rainbow-prev-name: #ef6061;
+        --rainbow-next-name: #9c920d;
+    }
+
+    38.75% {
+        --rainbow-prev-name: #ed635a;
+        --rainbow-next-name: #949510;
+    }
+
+    40% {
+        --rainbow-prev-name: #eb6552;
+        --rainbow-next-name: #8b9715;
+    }
+
+    41.25% {
+        --rainbow-prev-name: #e8694b;
+        --rainbow-next-name: #83991b;
+    }
+
+    42.5% {
+        --rainbow-prev-name: #e46c44;
+        --rainbow-next-name: #7a9b21;
+    }
+
+    43.75% {
+        --rainbow-prev-name: #e06f3d;
+        --rainbow-next-name: #719d27;
+    }
+
+    45% {
+        --rainbow-prev-name: #db7336;
+        --rainbow-next-name: #679e2e;
+    }
+
+    46.25% {
+        --rainbow-prev-name: #d77630;
+        --rainbow-next-name: #5da035;
+    }
+
+    47.5% {
+        --rainbow-prev-name: #d17a2a;
+        --rainbow-next-name: #51a13c;
+    }
+
+    48.75% {
+        --rainbow-prev-name: #cc7d24;
+        --rainbow-next-name: #44a244;
+    }
+
+    50% {
+        --rainbow-prev-name: #c6811e;
+        --rainbow-next-name: #34a44b;
+    }
+
+    51.25% {
+        --rainbow-prev-name: #bf8418;
+        --rainbow-next-name: #1ba553;
+    }
+
+    52.5% {
+        --rainbow-prev-name: #b98713;
+        --rainbow-next-name: #00a65b;
+    }
+
+    53.75% {
+        --rainbow-prev-name: #b28a0f;
+        --rainbow-next-name: #00a663;
+    }
+
+    55% {
+        --rainbow-prev-name: #ab8d0c;
+        --rainbow-next-name: #00a76c;
+    }
+
+    56.25% {
+        --rainbow-prev-name: #a3900b;
+        --rainbow-next-name: #00a874;
+    }
+
+    57.5% {
+        --rainbow-prev-name: #9c920d;
+        --rainbow-next-name: #00a87d;
+    }
+
+    58.75% {
+        --rainbow-prev-name: #949510;
+        --rainbow-next-name: #00a985;
+    }
+
+    60% {
+        --rainbow-prev-name: #8b9715;
+        --rainbow-next-name: #00a98e;
+    }
+
+    61.25% {
+        --rainbow-prev-name: #83991b;
+        --rainbow-next-name: #00a996;
+    }
+
+    62.5% {
+        --rainbow-prev-name: #7a9b21;
+        --rainbow-next-name: #00a99f;
+    }
+
+    63.75% {
+        --rainbow-prev-name: #719d27;
+        --rainbow-next-name: #00a9a7;
+    }
+
+    65% {
+        --rainbow-prev-name: #679e2e;
+        --rainbow-next-name: #00a9b0;
+    }
+
+    66.25% {
+        --rainbow-prev-name: #5da035;
+        --rainbow-next-name: #00a9b8;
+    }
+
+    67.5% {
+        --rainbow-prev-name: #51a13c;
+        --rainbow-next-name: #00a9c0;
+    }
+
+    68.75% {
+        --rainbow-prev-name: #44a244;
+        --rainbow-next-name: #00a8c7;
+    }
+
+    70% {
+        --rainbow-prev-name: #34a44b;
+        --rainbow-next-name: #00a8cf;
+    }
+
+    71.25% {
+        --rainbow-prev-name: #1ba553;
+        --rainbow-next-name: #00a7d5;
+    }
+
+    72.5% {
+        --rainbow-prev-name: #00a65b;
+        --rainbow-next-name: #00a6dc;
+    }
+
+    73.75% {
+        --rainbow-prev-name: #00a663;
+        --rainbow-next-name: #00a6e2;
+    }
+
+    75% {
+        --rainbow-prev-name: #00a76c;
+        --rainbow-next-name: #00a4e7;
+    }
+
+    76.25% {
+        --rainbow-prev-name: #00a874;
+        --rainbow-next-name: #00a3ec;
+    }
+
+    77.5% {
+        --rainbow-prev-name: #00a87d;
+        --rainbow-next-name: #00a2f1;
+    }
+
+    78.75% {
+        --rainbow-prev-name: #00a985;
+        --rainbow-next-name: #00a0f4;
+    }
+
+    80% {
+        --rainbow-prev-name: #00a98e;
+        --rainbow-next-name: #009ff7;
+    }
+
+    81.25% {
+        --rainbow-prev-name: #00a996;
+        --rainbow-next-name: #009dfa;
+    }
+
+    82.5% {
+        --rainbow-prev-name: #00a99f;
+        --rainbow-next-name: #009bfc;
+    }
+
+    83.75% {
+        --rainbow-prev-name: #00a9a7;
+        --rainbow-next-name: #0098fd;
+    }
+
+    85% {
+        --rainbow-prev-name: #00a9b0;
+        --rainbow-next-name: #0096fd;
+    }
+
+    86.25% {
+        --rainbow-prev-name: #00a9b8;
+        --rainbow-next-name: #0093fd;
+    }
+
+    87.5% {
+        --rainbow-prev-name: #00a9c0;
+        --rainbow-next-name: #2e90fc;
+    }
+
+    88.75% {
+        --rainbow-prev-name: #00a8c7;
+        --rainbow-next-name: #4d8dfa;
+    }
+
+    90% {
+        --rainbow-prev-name: #00a8cf;
+        --rainbow-next-name: #638af8;
+    }
+
+    91.25% {
+        --rainbow-prev-name: #00a7d5;
+        --rainbow-next-name: #7587f5;
+    }
+
+    92.5% {
+        --rainbow-prev-name: #00a6dc;
+        --rainbow-next-name: #8583f1;
+    }
+
+    93.75% {
+        --rainbow-prev-name: #00a6e2;
+        --rainbow-next-name: #9280ed;
+    }
+
+    95% {
+        --rainbow-prev-name: #00a4e7;
+        --rainbow-next-name: #9f7ce9;
+    }
+
+    96.25% {
+        --rainbow-prev-name: #00a3ec;
+        --rainbow-next-name: #aa78e3;
+    }
+
+    97.5% {
+        --rainbow-prev-name: #00a2f1;
+        --rainbow-next-name: #b574dd;
+    }
+
+    98.75% {
+        --rainbow-prev-name: #00a0f4;
+        --rainbow-next-name: #be71d7;
+    }
+
+    100% {
+        --rainbow-prev-name: #009ff7;
+        --rainbow-next-name: #c76dd1;
+    }
+}
+
+/* 彩虹色卡初始色 */
+:root {
+    /* 文本 */
+    --rainbow-prev-name: #009ff7;
+    --rainbow-next-name: #c76dd1;
+    animation: rainbow 8s linear infinite;
+
+    /* Logo */
+    --rainbow-prev-logo: #9d00ff;
+    --rainbow-next-logo: #ff0000;
+    /* animation: rainbow 8s linear infinite; */
+}
+
+:root {
+    /* hero标题渐变色 */
+    --vp-home-hero-name-color: transparent;
+    --vp-home-hero-name-background: -webkit-linear-gradient(120deg, var(--rainbow-prev-name) 30%, var(--rainbow-next-name));
+    --vp-home-hero-text-color: transparent;
+    --vp-home-hero-text-background: -webkit-linear-gradient(120deg, var(--rainbow-prev-name) 30%, var(--rainbow-next-name));
+
+    /*hero logo背景渐变色 */
+    --vp-home-hero-image-background-image: linear-gradient(-45deg, var(--rainbow-prev-logo) 30%, var(--rainbow-next-logo));
+    --vp-home-hero-image-filter: blur(80px);
+}

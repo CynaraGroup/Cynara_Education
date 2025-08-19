@@ -13,13 +13,14 @@
 
 #### 🔄 获取源码
 
-```bash
+```shell [git]
 git clone https://github.com/CynaraGroup/Shutdown_Prompt.git
 ```
 
 #### 📦 安装依赖
 
-```bash
+```shell [pip]
+
 # 进入目录
 cd Shutdown_Prompt
 
@@ -29,13 +30,15 @@ pip install pyqt5 pywin32 pyinstaller Pillow
 
 #### ▶️ 源码运行
 
-```bash
+```shell [python]
+
 python main_v2.py
 ```
 
 #### 🛠️ 编译
 
-```bash
+```shell [pyinstaller]
+
 pyinstaller -F -w -i assist/img/logo.ico --add-data "assist/font/dingtalk.ttf;." --add-data "assist/font/zhengqingke.ttf;." main_v2.py
 ```
 
