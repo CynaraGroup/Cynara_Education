@@ -3,7 +3,7 @@
 ## 🖥️ 打开网页
 
 在浏览器中访问以下地址：
-[https://dianm.teach.zhngjah.space/](https://dianm.teach.zhngjah.space/)
+[https://dianm.edu.cynara.my/](https://dianm.edu.cynara.my/)
 
 ## 📋 导入名单流程
 
