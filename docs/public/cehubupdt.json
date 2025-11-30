@@ -1,5 +1,5 @@
 {
-    "verson": "1.0.2",
+    "version": "1.0.2",
     "notice": "[fix]“五步蛇”\n[fix]“细胞分裂”\n[fix]无法运行分离python文件",
     "link": "https://d.cynara.my",
     "text": "为什么同样的代码，在Linux运行正常，Windows就bugbugbug😡😡😡"
